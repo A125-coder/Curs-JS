@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    background-image: url(../img/unnamed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    padding: 0 20px;
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: rgb(59, 59, 59);
+    height: 100vh;
+    position: fixed;
+}
+span{
+    display: none;
+}
+nav:hover span{
+    display: block;
+}
+p{
+    align-self: center;
+    cursor: pointer;
+    color: rgb(219, 219, 219);
+    opacity: 0.5;
+}
+p:hover{
+    color: chartreuse;
+    opacity: 1;
+}
+p:active{
+    color: chartreuse;
+    text-decoration: underline;
+    opacity: 1;
+}
